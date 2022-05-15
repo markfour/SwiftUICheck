@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             Form {
-                NavigationLink(destination: ListCheckView()) {
+                NavigationLink(destination: CheckListView()) {
                     Text("List")
                 }
                 Text("Form")

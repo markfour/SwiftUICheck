@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ListCheckView: View {
+struct CheckListView: View {
     var body: some View {
         Form {
             NavigationLink(destination: CheckListDefaultsStyleView()) {
@@ -20,7 +20,7 @@ struct ListCheckView: View {
 
 struct ListCheckView_Previews: PreviewProvider {
     static var previews: some View {
-        ListCheckView()
+        CheckListView()
     }
 }
 
