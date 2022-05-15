@@ -1,5 +1,5 @@
 //
-//  CheckListDeaultsStyleView.swift
+//  CheckListSidebarListStyleView.swift
 //  SwiftUICheck
 //
 //  Created by Markfour on 2022/05/16.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CheckListDefaultsStyleView: View {
+struct CheckListSidebarListStyleView: View {
     var body: some View {
         List {
             Section {
@@ -15,16 +15,16 @@ struct CheckListDefaultsStyleView: View {
                 Text("Osaka")
                 Text("Nagoya")
             } header: {
-                Text("DefaultListStyle")
+                Text("SidebarListStyle")
             }
         }
-        .listStyle(DefaultListStyle())
-        .navigationTitle("DefaultListStyle")
+        .listStyle(SidebarListStyle())
+        .navigationTitle("SidebarListStyle")
     }
 }
 
-struct CheckListDeaultsStyleView_Previews: PreviewProvider {
+struct CheckListSidebarListStyleView_Previews: PreviewProvider {
     static var previews: some View {
-        CheckListDefaultsStyleView()
+        CheckListSidebarListStyleView()
     }
 }
