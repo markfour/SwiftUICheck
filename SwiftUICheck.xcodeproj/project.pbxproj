@@ -11,6 +11,7 @@
 		A04F5BB7283031E700743859 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04F5BB6283031E700743859 /* ContentView.swift */; };
 		A04F5BB9283031EA00743859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A04F5BB8283031EA00743859 /* Assets.xcassets */; };
 		A04F5BBC283031EA00743859 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A04F5BBB283031EA00743859 /* Preview Assets.xcassets */; };
+		A04F5BC3283100E300743859 /* ListCheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04F5BC2283100E300743859 /* ListCheckView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		A04F5BB6283031E700743859 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A04F5BB8283031EA00743859 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A04F5BBB283031EA00743859 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A04F5BC2283100E300743859 /* ListCheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCheckView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				A04F5BB4283031E700743859 /* SwiftUICheckApp.swift */,
 				A04F5BB6283031E700743859 /* ContentView.swift */,
+				A04F5BC2283100E300743859 /* ListCheckView.swift */,
 				A04F5BB8283031EA00743859 /* Assets.xcassets */,
 				A04F5BBA283031EA00743859 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A04F5BC3283100E300743859 /* ListCheckView.swift in Sources */,
 				A04F5BB7283031E700743859 /* ContentView.swift in Sources */,
 				A04F5BB5283031E700743859 /* SwiftUICheckApp.swift in Sources */,
 			);
