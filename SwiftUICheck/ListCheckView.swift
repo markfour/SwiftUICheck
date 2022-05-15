@@ -2,7 +2,25 @@
 //  ListCheckView.swift
 //  SwiftUICheck
 //
-//  Created by kazumi hayashida on 2022/05/15.
+//  Created by Markfour on 2022/05/15.
 //
 
-import Foundation
+import SwiftUI
+
+struct ListCheckView: View {
+    var body: some View {
+        Form {
+            NavigationLink(destination: CheckListDeaultsStyleView()) {
+                Text("DefaultListStyle")
+            }
+        }
+        .navigationTitle("CheckListView")
+    }
+}
+
+struct ListCheckView_Previews: PreviewProvider {
+    static var previews: some View {
+        ListCheckView()
+    }
+}
+

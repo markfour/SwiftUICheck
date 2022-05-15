@@ -12,6 +12,7 @@
 		A04F5BB9283031EA00743859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A04F5BB8283031EA00743859 /* Assets.xcassets */; };
 		A04F5BBC283031EA00743859 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A04F5BBB283031EA00743859 /* Preview Assets.xcassets */; };
 		A04F5BC3283100E300743859 /* ListCheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04F5BC2283100E300743859 /* ListCheckView.swift */; };
+		A04F5BC52831604200743859 /* CheckListDeaultsStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04F5BC42831604200743859 /* CheckListDeaultsStyleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		A04F5BB8283031EA00743859 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A04F5BBB283031EA00743859 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A04F5BC2283100E300743859 /* ListCheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCheckView.swift; sourceTree = "<group>"; };
+		A04F5BC42831604200743859 /* CheckListDeaultsStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListDeaultsStyleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +55,10 @@
 		A04F5BB3283031E700743859 /* SwiftUICheck */ = {
 			isa = PBXGroup;
 			children = (
-				A04F5BB4283031E700743859 /* SwiftUICheckApp.swift */,
+				A04F5BC42831604200743859 /* CheckListDeaultsStyleView.swift */,
 				A04F5BB6283031E700743859 /* ContentView.swift */,
 				A04F5BC2283100E300743859 /* ListCheckView.swift */,
+				A04F5BB4283031E700743859 /* SwiftUICheckApp.swift */,
 				A04F5BB8283031EA00743859 /* Assets.xcassets */,
 				A04F5BBA283031EA00743859 /* Preview Content */,
 			);
@@ -142,6 +145,7 @@
 			files = (
 				A04F5BC3283100E300743859 /* ListCheckView.swift in Sources */,
 				A04F5BB7283031E700743859 /* ContentView.swift in Sources */,
+				A04F5BC52831604200743859 /* CheckListDeaultsStyleView.swift in Sources */,
 				A04F5BB5283031E700743859 /* SwiftUICheckApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

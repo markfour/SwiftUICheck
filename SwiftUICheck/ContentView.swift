@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  SwiftUICheck
 //
-//  Created by kazumi hayashida on 2022/05/15.
+//  Created by Markfour on 2022/05/15.
 //
 
 import SwiftUI
@@ -11,7 +11,9 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             Form {
-                Text("List")
+                NavigationLink(destination: ListCheckView()) {
+                    Text("List")
+                }
                 Text("Form")
                 Text("VStack")
                 Text("NavigationView")
