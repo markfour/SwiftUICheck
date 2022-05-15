@@ -9,12 +9,19 @@ import SwiftUI
 
 struct CheckListDeaultsStyleView: View {
     var body: some View {
-        Section {
-            Text("Tokyo")
-            Text("Osaka")
-            Text("Nagoya")
-        } header: {
-            Text("Shibuya")
+        List {
+            Section {
+                Text("Tokyo")
+                Text("Osaka")
+                Text("Nagoya")
+            } header: {
+                Text("Prefectures")
+            }
+            Section {
+                Text("Shibuya")
+            } header: {
+                Text("City")
+            }
         }
         .listStyle(DefaultListStyle())
     }
