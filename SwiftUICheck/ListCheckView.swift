@@ -10,7 +10,7 @@ import SwiftUI
 struct ListCheckView: View {
     var body: some View {
         Form {
-            NavigationLink(destination: CheckListDeaultsStyleView()) {
+            NavigationLink(destination: CheckListDefaultsStyleView()) {
                 Text("DefaultListStyle")
             }
         }

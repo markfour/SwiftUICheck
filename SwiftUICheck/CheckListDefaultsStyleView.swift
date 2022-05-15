@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CheckListDeaultsStyleView: View {
+struct CheckListDefaultsStyleView: View {
     var body: some View {
         List {
             Section {
@@ -29,6 +29,6 @@ struct CheckListDeaultsStyleView: View {
 
 struct CheckListDeaultsStyleView_Previews: PreviewProvider {
     static var previews: some View {
-        CheckListDeaultsStyleView()
+        CheckListDefaultsStyleView()
     }
 }
