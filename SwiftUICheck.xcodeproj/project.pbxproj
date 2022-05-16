@@ -14,6 +14,7 @@
 		A04F5BC3283100E300743859 /* CheckListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04F5BC2283100E300743859 /* CheckListView.swift */; };
 		A04F5BC52831604200743859 /* CheckListDefaultsStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04F5BC42831604200743859 /* CheckListDefaultsStyleView.swift */; };
 		A04F5BC72831659A00743859 /* CheckListSidebarListStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04F5BC62831659900743859 /* CheckListSidebarListStyleView.swift */; };
+		A0DEDC0928329E58008F3402 /* CheckListBolderStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DEDC0828329E58008F3402 /* CheckListBolderStyleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		A04F5BC2283100E300743859 /* CheckListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListView.swift; sourceTree = "<group>"; };
 		A04F5BC42831604200743859 /* CheckListDefaultsStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListDefaultsStyleView.swift; sourceTree = "<group>"; };
 		A04F5BC62831659900743859 /* CheckListSidebarListStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListSidebarListStyleView.swift; sourceTree = "<group>"; };
+		A0DEDC0828329E58008F3402 /* CheckListBolderStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListBolderStyleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		A04F5BB3283031E700743859 /* SwiftUICheck */ = {
 			isa = PBXGroup;
 			children = (
+				A0DEDC0828329E58008F3402 /* CheckListBolderStyleView.swift */,
 				A04F5BC42831604200743859 /* CheckListDefaultsStyleView.swift */,
 				A04F5BC62831659900743859 /* CheckListSidebarListStyleView.swift */,
 				A04F5BC2283100E300743859 /* CheckListView.swift */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A04F5BC3283100E300743859 /* CheckListView.swift in Sources */,
+				A0DEDC0928329E58008F3402 /* CheckListBolderStyleView.swift in Sources */,
 				A04F5BC72831659A00743859 /* CheckListSidebarListStyleView.swift in Sources */,
 				A04F5BB7283031E700743859 /* ContentView.swift in Sources */,
 				A04F5BC52831604200743859 /* CheckListDefaultsStyleView.swift in Sources */,
