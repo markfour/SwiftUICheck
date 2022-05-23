@@ -1,5 +1,5 @@
 //
-//  CheckListDeaultsStyleView.swift
+//  CheckListGroupedStyleView.swift
 //  SwiftUICheck
 //
 //  Created by Markfour on 2022/05/16.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CheckListDefaultsStyleView: View {
+struct CheckListGroupedStyleView: View {
     var body: some View {
         List {
             Section {
@@ -15,16 +15,16 @@ struct CheckListDefaultsStyleView: View {
                 Text("Osaka")
                 Text("Nagoya")
             } header: {
-                Text("DefaultListStyle")
+                Text("GroupedListStyle")
             }
         }
-        .listStyle(.automatic)
-        .navigationTitle("DefaultListStyle")
+        .listStyle(.grouped)
+        .navigationTitle("GroupedListStyle")
     }
 }
 
-struct CheckListDeaultsStyleView_Previews: PreviewProvider {
+struct CheckListBolderStyleView_Previews: PreviewProvider {
     static var previews: some View {
-        CheckListDefaultsStyleView()
+        CheckListGroupedStyleView()
     }
 }

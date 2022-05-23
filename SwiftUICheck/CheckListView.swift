@@ -16,6 +16,9 @@ struct CheckListView: View {
             NavigationLink(destination: CheckListSidebarListStyleView()) {
                 Text("SidebarListStyleView")
             }
+            NavigationLink(destination: CheckListGroupedStyleView()) {
+                Text("CheckListBolderStyleView")
+            }
         }
         .navigationTitle("List")
     }

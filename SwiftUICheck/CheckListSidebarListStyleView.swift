@@ -18,7 +18,7 @@ struct CheckListSidebarListStyleView: View {
                 Text("SidebarListStyle")
             }
         }
-        .listStyle(SidebarListStyle())
+        .listStyle(.sidebar)
         .navigationTitle("SidebarListStyle")
     }
 }
