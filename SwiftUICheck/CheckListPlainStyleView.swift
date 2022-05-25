@@ -9,7 +9,17 @@ import SwiftUI
 
 struct CheckListPlainStyleView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List {
+            Section {
+                Text("Tokyo")
+                Text("Osaka")
+                Text("Nagoya")
+            } header: {
+                Text("PlainListStyle")
+            }
+        }
+        .listStyle(.plain)
+        .navigationTitle("PlainListStyle")
     }
 }
 

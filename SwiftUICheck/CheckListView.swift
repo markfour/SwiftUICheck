@@ -13,6 +13,9 @@ struct CheckListView: View {
             NavigationLink(destination: CheckListDefaultsStyleView()) {
                 Text("DefaultListStyle")
             }
+            NavigationLink(destination: CheckListPlainStyleView()) {
+                Text("PlainListStyleView")
+            }
             NavigationLink(destination: CheckListSidebarListStyleView()) {
                 Text("SidebarListStyleView")
             }
