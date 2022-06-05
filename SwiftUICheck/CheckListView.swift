@@ -25,6 +25,9 @@ struct CheckListView: View {
             NavigationLink(destination: CheckListInsetViewController()) {
                 Text("CheckListInsetViewController")
             }
+            NavigationLink(destination: CheckListInsetGroupedStyleView()) {
+                Text("CheckListInsetGroupedStyleView")
+            }
         }
         .navigationTitle("List")
     }
