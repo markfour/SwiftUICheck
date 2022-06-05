@@ -16,6 +16,7 @@
 		A04F5BC72831659A00743859 /* CheckListSidebarListStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04F5BC62831659900743859 /* CheckListSidebarListStyleView.swift */; };
 		A0DEDC0928329E58008F3402 /* CheckListGroupedStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DEDC0828329E58008F3402 /* CheckListGroupedStyleView.swift */; };
 		A0DEDC0B283BC0F9008F3402 /* CheckListPlainStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DEDC0A283BC0F9008F3402 /* CheckListPlainStyleView.swift */; };
+		A0F3E059284D229C00FC0EA6 /* CheckListInsetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F3E058284D229C00FC0EA6 /* CheckListInsetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		A04F5BC62831659900743859 /* CheckListSidebarListStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListSidebarListStyleView.swift; sourceTree = "<group>"; };
 		A0DEDC0828329E58008F3402 /* CheckListGroupedStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListGroupedStyleView.swift; sourceTree = "<group>"; };
 		A0DEDC0A283BC0F9008F3402 /* CheckListPlainStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListPlainStyleView.swift; sourceTree = "<group>"; };
+		A0F3E058284D229C00FC0EA6 /* CheckListInsetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListInsetViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			children = (
 				A04F5BC42831604200743859 /* CheckListDefaultsStyleView.swift */,
 				A0DEDC0828329E58008F3402 /* CheckListGroupedStyleView.swift */,
+				A0F3E058284D229C00FC0EA6 /* CheckListInsetViewController.swift */,
 				A0DEDC0A283BC0F9008F3402 /* CheckListPlainStyleView.swift */,
 				A04F5BC62831659900743859 /* CheckListSidebarListStyleView.swift */,
 				A04F5BC2283100E300743859 /* CheckListView.swift */,
@@ -157,6 +160,7 @@
 				A0DEDC0B283BC0F9008F3402 /* CheckListPlainStyleView.swift in Sources */,
 				A04F5BC72831659A00743859 /* CheckListSidebarListStyleView.swift in Sources */,
 				A04F5BB7283031E700743859 /* ContentView.swift in Sources */,
+				A0F3E059284D229C00FC0EA6 /* CheckListInsetViewController.swift in Sources */,
 				A04F5BC52831604200743859 /* CheckListDefaultsStyleView.swift in Sources */,
 				A04F5BB5283031E700743859 /* SwiftUICheckApp.swift in Sources */,
 			);
