@@ -14,6 +14,7 @@
 		A04F5BC3283100E300743859 /* CheckListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04F5BC2283100E300743859 /* CheckListView.swift */; };
 		A04F5BC52831604200743859 /* CheckListDefaultsStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04F5BC42831604200743859 /* CheckListDefaultsStyleView.swift */; };
 		A04F5BC72831659A00743859 /* CheckListSidebarListStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04F5BC62831659900743859 /* CheckListSidebarListStyleView.swift */; };
+		A064B77628525A4900DE09BD /* CheckFormListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A064B77528525A4900DE09BD /* CheckFormListView.swift */; };
 		A0DEDC0928329E58008F3402 /* CheckListGroupedStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DEDC0828329E58008F3402 /* CheckListGroupedStyleView.swift */; };
 		A0DEDC0B283BC0F9008F3402 /* CheckListPlainStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DEDC0A283BC0F9008F3402 /* CheckListPlainStyleView.swift */; };
 		A0F3E059284D229C00FC0EA6 /* CheckListInsetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F3E058284D229C00FC0EA6 /* CheckListInsetViewController.swift */; };
@@ -29,6 +30,7 @@
 		A04F5BC2283100E300743859 /* CheckListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListView.swift; sourceTree = "<group>"; };
 		A04F5BC42831604200743859 /* CheckListDefaultsStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListDefaultsStyleView.swift; sourceTree = "<group>"; };
 		A04F5BC62831659900743859 /* CheckListSidebarListStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListSidebarListStyleView.swift; sourceTree = "<group>"; };
+		A064B77528525A4900DE09BD /* CheckFormListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckFormListView.swift; sourceTree = "<group>"; };
 		A0DEDC0828329E58008F3402 /* CheckListGroupedStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListGroupedStyleView.swift; sourceTree = "<group>"; };
 		A0DEDC0A283BC0F9008F3402 /* CheckListPlainStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListPlainStyleView.swift; sourceTree = "<group>"; };
 		A0F3E058284D229C00FC0EA6 /* CheckListInsetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListInsetViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 		A04F5BB3283031E700743859 /* SwiftUICheck */ = {
 			isa = PBXGroup;
 			children = (
+				A064B77528525A4900DE09BD /* CheckFormListView.swift */,
 				A04F5BC42831604200743859 /* CheckListDefaultsStyleView.swift */,
 				A0DEDC0828329E58008F3402 /* CheckListGroupedStyleView.swift */,
 				A0F3E05A284D243C00FC0EA6 /* CheckListInsetGroupedStyleView.swift */,
@@ -167,6 +170,7 @@
 				A0F3E059284D229C00FC0EA6 /* CheckListInsetViewController.swift in Sources */,
 				A04F5BC52831604200743859 /* CheckListDefaultsStyleView.swift in Sources */,
 				A04F5BB5283031E700743859 /* SwiftUICheckApp.swift in Sources */,
+				A064B77628525A4900DE09BD /* CheckFormListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
