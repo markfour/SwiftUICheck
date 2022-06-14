@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A00AB406285645370033A1B6 /* CheckForm1ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00AB405285645370033A1B6 /* CheckForm1ListView.swift */; };
 		A04F5BB5283031E700743859 /* SwiftUICheckApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04F5BB4283031E700743859 /* SwiftUICheckApp.swift */; };
 		A04F5BB7283031E700743859 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04F5BB6283031E700743859 /* ContentView.swift */; };
 		A04F5BB9283031EA00743859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A04F5BB8283031EA00743859 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A00AB405285645370033A1B6 /* CheckForm1ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckForm1ListView.swift; sourceTree = "<group>"; };
 		A04F5BB1283031E700743859 /* SwiftUICheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A04F5BB4283031E700743859 /* SwiftUICheckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICheckApp.swift; sourceTree = "<group>"; };
 		A04F5BB6283031E700743859 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +69,8 @@
 		A04F5BB3283031E700743859 /* SwiftUICheck */ = {
 			isa = PBXGroup;
 			children = (
+				A04F5BB8283031EA00743859 /* Assets.xcassets */,
+				A00AB405285645370033A1B6 /* CheckForm1ListView.swift */,
 				A064B77528525A4900DE09BD /* CheckFormListView.swift */,
 				A04F5BC42831604200743859 /* CheckListDefaultsStyleView.swift */,
 				A0DEDC0828329E58008F3402 /* CheckListGroupedStyleView.swift */,
@@ -76,9 +80,8 @@
 				A04F5BC62831659900743859 /* CheckListSidebarListStyleView.swift */,
 				A04F5BC2283100E300743859 /* CheckListView.swift */,
 				A04F5BB6283031E700743859 /* ContentView.swift */,
-				A04F5BB4283031E700743859 /* SwiftUICheckApp.swift */,
-				A04F5BB8283031EA00743859 /* Assets.xcassets */,
 				A04F5BBA283031EA00743859 /* Preview Content */,
+				A04F5BB4283031E700743859 /* SwiftUICheckApp.swift */,
 			);
 			path = SwiftUICheck;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				A04F5BB7283031E700743859 /* ContentView.swift in Sources */,
 				A0F3E05B284D243C00FC0EA6 /* CheckListInsetGroupedStyleView.swift in Sources */,
 				A0F3E059284D229C00FC0EA6 /* CheckListInsetViewController.swift in Sources */,
+				A00AB406285645370033A1B6 /* CheckForm1ListView.swift in Sources */,
 				A04F5BC52831604200743859 /* CheckListDefaultsStyleView.swift in Sources */,
 				A04F5BB5283031E700743859 /* SwiftUICheckApp.swift in Sources */,
 				A064B77628525A4900DE09BD /* CheckFormListView.swift in Sources */,
